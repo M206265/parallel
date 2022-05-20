@@ -9,7 +9,7 @@ program main
 
 
   
-  call make_data(1000)
+!  call make_data(2000)
   
   open(1, file='data1.dat')
   read(1, *) n

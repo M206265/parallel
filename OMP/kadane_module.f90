@@ -33,7 +33,7 @@ contains
     x2=1
     y2=1
     
-    call omp_set_num_threads(4)
+!    call omp_set_num_threads(4)
 
      !$omp parallel shared(x1, y1, x2, y2, max_sum, B, n) default(private)
      !$omp do schedule(dynamic)
